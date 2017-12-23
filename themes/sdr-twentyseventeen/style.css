@@ -1,0 +1,69 @@
+/*
+ Theme Name:   San Diego Randonneurs Child Theme
+ Theme URI:    http://www.sdrandos.com/
+ Description:  A Twenty Seventeen child theme for The SDRandos web site
+ Author:       Osvaldo Colavin
+ Author URI:   http://www.sdrandos.com
+ Template:     twentyseventeen
+ Version:      1.0.0
+*/
+ 
+@import url("../twentyseventeen/style.css");
+
+/* link color */
+a {
+	color: #ff7700;
+	text-decoration: none;
+}
+
+input[type="text"].sdr-name {
+	padding: 0.1em;
+	display: inline;
+	width: 16em; 
+}
+
+input[type="text"].sdr-rusaid {
+	padding: 0.1em;
+	display: inline;
+	width: 4em;
+}
+
+select.sdr-filter {
+	border: 1px solid #bbb;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	height: 2em; 
+	max-width: 100%;
+}
+
+input[type="submit"].sdr-filter {
+	background-color: #ff7700;
+	border: 0;
+	-webkit-border-radius: 2px;
+	/* border-radius: 2px; OC Nov 4 2017 */
+	border-radius: 5px;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: 800;
+	line-height: 1;
+	/* padding: 1em 2em; OC Nov 4 2017 */
+	padding: 0.6em 0.6em; 
+	text-shadow: none;
+	-webkit-transition: background 0.2s;
+	transition: background 0.2s;
+}
+
+/* This is to force the ACP and RUSA brevets tables to have identical width 1st and 2nd columns */
+th.sdr-brevet-date, td.sdr-brevet-date {
+	width: 19em;
+}
+
+th.sdr-brevet-title, td.sdr-brevet-title {
+	width: 26em;
+}
+
